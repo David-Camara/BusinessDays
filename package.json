@@ -1,0 +1,26 @@
+{
+  "name": "businessdays",
+  "version": "1.0.0",
+  "description": "Calculates business days for Ontario Canada when provided 2 dates",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test2": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "business",
+    "days",
+    "calendar",
+    "days"
+  ],
+  "author": "David Camara",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
